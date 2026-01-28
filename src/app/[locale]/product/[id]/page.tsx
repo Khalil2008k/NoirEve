@@ -25,6 +25,7 @@ import { getDictionary } from '@/lib/dictionary';
 import type { Locale } from '@/store/settings';
 import type { Dictionary } from '@/core/types/dictionary';
 
+
 export default function ProductPage({
     params,
 }: {

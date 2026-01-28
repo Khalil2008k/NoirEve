@@ -4,7 +4,6 @@ import './globals.css';
 import { HydrationGuard } from '@/core/adapters/HydrationGuard';
 import { QueryProvider } from '@/core/adapters/QueryProvider';
 import { ToastProvider } from '@/components/ui/Toast';
-import type { Locale } from '@/store/settings';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' });
@@ -14,12 +13,17 @@ export const metadata: Metadata = {
   description: 'Experience the pinnacle of luxury with NoirEve. Curated watches for the discerning.',
 };
 
+// Required for static export
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'ar' }];
+}
+
 export default async function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   const dir = locale === 'ar' ? 'rtl' : 'ltr';
@@ -40,4 +44,3 @@ export default async function RootLayout({
     </html>
   );
 }
-

@@ -12,6 +12,7 @@ import { getDictionary } from '@/lib/dictionary';
 import type { Locale } from '@/store/settings';
 import type { Dictionary } from '@/core/types/dictionary';
 
+
 const brandInfo: Record<string, {
     name: string;
     tagline: string;

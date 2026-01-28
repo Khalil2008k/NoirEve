@@ -9,23 +9,23 @@ export interface Price {
 export interface WatchImage {
   url: string;
   alt: string;
-  isPrimary: boolean;
+  isPrimary?: boolean;
 }
 
 export interface Watch {
   id: string;
-  slug: string;
+  slug?: string;
   brand: string;
   model: string;
-  description: string;
-  description_ar: string;
+  description?: string;
+  description_ar?: string;
   price: Price;
   category: 'Men' | 'Women' | 'Unisex';
-  movement: 'Automatic' | 'Quartz' | 'Manual';
-  case_material: string;
+  movement?: 'Automatic' | 'Quartz' | 'Manual';
+  case_material?: string;
   images: WatchImage[];
-  specifications: Record<string, string>;
-  stock: number;
+  specifications?: Record<string, string>;
+  stock?: number;
 }
 
 export interface CatalogState {
