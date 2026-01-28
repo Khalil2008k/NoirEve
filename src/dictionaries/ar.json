@@ -1,0 +1,72 @@
+{
+    "common": {
+        "search": "البحث عن الساعات...",
+        "cart": "السلة",
+        "login": "تسجيل الدخول",
+        "categories": "الفئات",
+        "viewAll": "عرض الكل",
+        "shopNow": "تسوق الآن",
+        "exploreNow": "اكتشف الآن"
+    },
+    "nav": {
+        "home": "الرئيسية",
+        "men": "رجالي",
+        "women": "نسائي",
+        "brands": "العلامات التجارية",
+        "new_arrivals": "وصل حديثاً"
+    },
+    "hero": {
+        "title": "ساعات رائعة",
+        "subtitle": "اكتشف أرقى الساعات الفاخرة في العالم في قلب قطر.",
+        "cta": "تسوق المجموعة"
+    },
+    "sections": {
+        "newArrivals": "وصل حديثاً",
+        "youMayAlsoLike": "قد يعجبك أيضاً",
+        "shopByPrice": "تسوق حسب السعر",
+        "shopByBrands": "تسوق حسب العلامة التجارية",
+        "collections": "المجموعات",
+        "theSpotlight": "الضوء على",
+        "winterCollection": "مجموعة الشتاء 2026",
+        "eleganceRedefined": "الأناقة المعاد تعريفها"
+    },
+    "categories": {
+        "justForHim": "خاص له",
+        "justForHer": "خاص لها",
+        "mensCollection": "مجموعة الرجال",
+        "womensCollection": "مجموعة النساء"
+    },
+    "collections": {
+        "dress": "ساعات كلاسيكية",
+        "sport": "ساعات رياضية",
+        "vintage": "مجموعة عتيقة",
+        "limited": "إصدارات محدودة"
+    },
+    "priceRange": {
+        "under": "أقل من"
+    },
+    "features": {
+        "freeShipping": "شحن مجاني",
+        "freeShippingDesc": "للطلبات فوق 200 ريال",
+        "warranty": "ضمان سنتين",
+        "warrantyDesc": "ضمان المصنع الرسمي",
+        "securePayment": "دفع آمن",
+        "securePaymentDesc": "معاملات مشفرة 100%",
+        "support": "دعم على مدار الساعة",
+        "supportDesc": "نحن هنا لمساعدتك"
+    },
+    "footer": {
+        "company": "الشركة",
+        "aboutUs": "من نحن",
+        "careers": "الوظائف",
+        "contact": "اتصل بنا",
+        "support": "الدعم",
+        "faq": "الأسئلة الشائعة",
+        "shipping": "الشحن والإرجاع",
+        "sizeGuide": "دليل المقاسات",
+        "legal": "القانونية",
+        "privacy": "سياسة الخصوصية",
+        "terms": "الشروط والأحكام",
+        "allRightsReserved": "جميع الحقوق محفوظة"
+    }
+}

@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+:root {
+  --background: #1E1E27;
+  --foreground: #E2E2E2;
+  --card: #28242A;
+  --card-foreground: #E2E2E2;
+  --popover: #1E1E27;
+  --popover-foreground: #E2E2E2;
+  --primary: #DF0139;
+  /* Vibrant Red */
+  --primary-foreground: #E2E2E2;
+  --secondary: #75020F;
+  /* Deep Crimson */
+  --secondary-foreground: #E2E2E2;
+  --muted: #28242A;
+  /* Muted gray for readable secondary text */
+  --muted-foreground: #9ca3af;
+  --accent: #DF0139;
+  --accent-foreground: #E2E2E2;
+  --destructive: #DF0139;
+  --destructive-foreground: #E2E2E2;
+  --border: #75020F;
+  --input: #28242A;
+  --ring: #DF0139;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-card/60 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 hover:border-primary/50 transition-all duration-500;
+  }
+
+  .container-sovereign {
+    @apply max-w-[1400px] mx-auto px-4 sm:px-4 lg:px-6;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/20 rounded-full hover:bg-primary/50 transition-colors;
+}

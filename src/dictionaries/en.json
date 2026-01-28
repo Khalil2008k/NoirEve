@@ -1,0 +1,72 @@
+{
+    "common": {
+        "search": "Search watches...",
+        "cart": "Cart",
+        "login": "Login",
+        "categories": "Categories",
+        "viewAll": "View All",
+        "shopNow": "Shop Now",
+        "exploreNow": "Explore Now"
+    },
+    "nav": {
+        "home": "Home",
+        "men": "Men",
+        "women": "Women",
+        "brands": "Brands",
+        "new_arrivals": "New Arrivals"
+    },
+    "hero": {
+        "title": "Exquisite Timepieces",
+        "subtitle": "Discover the world's finest luxury watches in the heart of Qatar.",
+        "cta": "Shop Collection"
+    },
+    "sections": {
+        "newArrivals": "New Arrivals",
+        "youMayAlsoLike": "You May Also Like",
+        "shopByPrice": "Shop by Price",
+        "shopByBrands": "Shop by Brands",
+        "collections": "Collections",
+        "theSpotlight": "The Spotlight",
+        "winterCollection": "Winter Collection 2026",
+        "eleganceRedefined": "Elegance Redefined"
+    },
+    "categories": {
+        "justForHim": "Just For Him",
+        "justForHer": "Just For Her",
+        "mensCollection": "Men's Collection",
+        "womensCollection": "Women's Collection"
+    },
+    "collections": {
+        "dress": "Dress Watches",
+        "sport": "Sport Watches",
+        "vintage": "Vintage Collection",
+        "limited": "Limited Editions"
+    },
+    "priceRange": {
+        "under": "Under"
+    },
+    "features": {
+        "freeShipping": "Free Shipping",
+        "freeShippingDesc": "On orders over QAR 200",
+        "warranty": "2-Year Warranty",
+        "warrantyDesc": "Official manufacturer warranty",
+        "securePayment": "Secure Payment",
+        "securePaymentDesc": "100% encrypted transactions",
+        "support": "24/7 Support",
+        "supportDesc": "We're here to help"
+    },
+    "footer": {
+        "company": "Company",
+        "aboutUs": "About Us",
+        "careers": "Careers",
+        "contact": "Contact",
+        "support": "Support",
+        "faq": "FAQ",
+        "shipping": "Shipping & Returns",
+        "sizeGuide": "Size Guide",
+        "legal": "Legal",
+        "privacy": "Privacy Policy",
+        "terms": "Terms & Conditions",
+        "allRightsReserved": "All rights reserved"
+    }
+}
